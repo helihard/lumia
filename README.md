@@ -5,7 +5,7 @@ X 1. Som användare vill jag kunna se Lumias lampor.
 
 X 2. Som användare vill jag att utseendet på webbsidans olika delar stämmer överens med videon (https://drive.google.com/file/d/1UycGO6R10bH8d1_SunoU-mtM6DxXntCv/view).
 
-3. Som användare vill jag kunna söka bland Lumias lampor och få träffar baserat på lampornas namn.
+X 3. Som användare vill jag kunna söka bland Lumias lampor och få träffar baserat på lampornas namn.
 
 X 4. Som användare vill jag kunna gå mellan “Kontakta oss” och startsidan genom att klicka i menyn, utan att webbläsaren laddar om sidan.
 
@@ -15,7 +15,7 @@ X 6. Som användare vill jag kunna stänga varukorgen genom att klicka utanför 
 
 7. Som användare vill jag att varukorgens “total” uppdateras när jag lägger nya lampor i varukorgen.
 
-8. Som användare vill jag kunna söka bland Lumias lampor och få träffar baserat på lampornas dolda keywords.
+X 8. Som användare vill jag kunna söka bland Lumias lampor och få träffar baserat på lampornas dolda keywords.
 
 9. Som användare vill jag att om jag lägger flera exemplar av samma lampa ska inte nya rader skapas i varukorgen, utan istället att summan och ett antal uppdateras.
 
