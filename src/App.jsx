@@ -2,11 +2,7 @@
 import Router from "./components/Router.jsx"
 
 function App() {
-  return (
-    <div className="page corners padding transp">
-      <Router />
-    </div>
-  )
+  return <Router />
 }
 
 export default App
