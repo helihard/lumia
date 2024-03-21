@@ -12,7 +12,10 @@ function Home() {
 
         <div className="lamps">
           <div className="product clearfix">
-            <img src="https://d2lhb5rbruih0q.cloudfront.net/eyJ2IjoxMDIsInQiOiJwcm9kdWN0IiwibiI6IjUyMzI0Ni5qcGcifQ==/107942.jpg?q=85&amp;w=670&amp;h=447&amp;dpr=2"></img>
+            <img
+              src="https://www.trademax.se/assets/blobs/belysning-inomhusbelysning-lampor-bordslampa-cottex/1808702(1)-c355d4aec2.jpeg?preset=medium&dpr=2"
+              alt="Bordslampa i guld"
+            ></img>
             <div className="content">
               <h2>Bordslampa i guld</h2>
               <p>Mått Ø 55 cm, höjd 30 cm.</p>
@@ -20,7 +23,10 @@ function Home() {
             </div>
           </div>
           <div className="product clearfix">
-            <img src="https://d2lhb5rbruih0q.cloudfront.net/eyJ2IjoxMDIsInQiOiJwcm9kdWN0IiwibiI6IjEyMzEwMS5qcGcifQ==/34537.jpg?q=85&amp;w=670&amp;h=447&amp;dpr=2"></img>
+            <img
+              src="https://www.trademax.se/assets/blobs/belysning-inomhusbelysning-lampor-taklampa-pendellampor-hanglampor-kaptan/2270074(1)-523b50e44e.jpeg?preset=medium&dpr=2"
+              alt="Vit taklampa"
+            ></img>
             <div className="content">
               <h2>Vit taklampa</h2>
               <p>Mått Ø 25 cm, höjd 20 cm.</p>
