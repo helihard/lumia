@@ -33,20 +33,13 @@ nav a {
   font-family: Lobster;
   font-size: 120%;
   color: black !important;
-}
-
-.contact-us:hover {
-  color: white !important;
   text-decoration: none;
 }
 
-#cart {
-  background-color: lightgray;
-  /*width: 23vw;
-  display:inline-block;*/
-  vertical-align: top;
-  float: right;
-  margin-right: 1vw;
+.contact-us:hover,
+.cart:hover {
+  color: white !important;
+  text-decoration: none;
 }
 
 #search {
@@ -95,6 +88,7 @@ nav a {
 #cart ul {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 #cart li {
@@ -114,7 +108,6 @@ nav a {
 
 .corners {
   border-radius: 10px;
-  border: 1px solid black;
 }
 
 .padding {
@@ -129,24 +122,15 @@ nav a {
   overflow: auto;
 }
 
-.basket {
-  display: none;
-  z-index: 2;
-}
-
-.basket > .overlay {
+.overlay {
   position: fixed;
-  top: 0;
+  top: 80px;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
 }
 
-.basket > .jumbotron {
-  position: fixed;
-  left: 10vh;
-  right: 10vh;
-  top: 15vh;
-  background-color: #aabbcc;
+#modal-close-button {
+  max-width: min-content;
+  margin: 0 10px 10px auto;
 }
