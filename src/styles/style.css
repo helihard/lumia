@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url(http://eskipaper.com/images/city-lights-wallpaper-5.jpg);
+  background-size: cover;
+  min-height: 100vh;
+  padding-top: 4vh;
+  font-family: Raleway;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Lobster;
+  margin: 0;
+}
+
+h1 {
+  text-align: left;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.page {
+  background-color: orange;
+  background: linear-gradient(orange, white);
+  margin: 0 5vw;
+  padding-bottom: 20px;
+}
+
+nav a {
+  font-family: Lobster;
+  font-size: 120%;
+  color: black !important;
+}
+
+.contact-us:hover {
+  color: white !important;
+  text-decoration: none;
+}
+
+#cart {
+  background-color: lightgray;
+  /*width: 23vw;
+  display:inline-block;*/
+  vertical-align: top;
+  float: right;
+  margin-right: 1vw;
+}
+
+#search {
+  width: calc(100% - 8px);
+  display: block;
+  border-radius: 7px;
+  border: 1px solid gray;
+  margin: 15px 0;
+  font-family: Lobster;
+  padding: 3px;
+}
+
+.product {
+  /*display:none;*/
+  margin-bottom: 5px;
+}
+
+/*.content>p{
+
+}*/
+
+.content > button {
+  font-family: Raleway;
+}
+
+.product img {
+  width: 30%;
+  float: right;
+  margin-bottom: 10px;
+  border: 1px solid gray;
+}
+
+.product.big {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: orange;
+}
+
+.product.big img {
+  width: 75vw;
+}
+
+#cart ul {
+  list-style: none;
+  padding: 0;
+}
+
+#cart li {
+  overflow: auto;
+  margin-bottom: 3px;
+}
+
+#cart li > span {
+  float: right;
+}
+
+#cart li.total {
+  border-top: 1px dashed gray;
+  padding-top: 6px;
+  margin-top: 6px;
+}
+
+.corners {
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.padding {
+  padding: 10px;
+}
+
+.transp {
+  opacity: 0.9;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+.basket {
+  display: none;
+  z-index: 2;
+}
+
+.basket > .overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.basket > .jumbotron {
+  position: fixed;
+  left: 10vh;
+  right: 10vh;
+  top: 15vh;
+  background-color: #aabbcc;
+}
