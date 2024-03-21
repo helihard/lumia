@@ -17,6 +17,13 @@ function Contact() {
     }
   }
 
+  const handleEmailInputFocus = () => {
+    setConfirmationMessage(undefined)
+  }
+
+  const handleTextareaInputFocus = () => {
+    setConfirmationMessage(undefined)
+  }
   return (
     <div className="contact">
       <div className="form-group">
@@ -28,6 +35,7 @@ function Contact() {
           id="exampleFormControlInput1"
           placeholder="namn@exempel.se"
           onChange={(event) => setEmailInput(event.target.value)}
+          onFocus={handleEmailInputFocus}
         ></input>
       </div>
       <div className="form-group">
@@ -38,6 +46,7 @@ function Contact() {
           id="exampleFormControlTextarea1"
           rows="3"
           onChange={(event) => setMessageInput(event.target.value)}
+          onFocus={handleTextareaInputFocus}
         ></textarea>
       </div>
       {confirmationMessage?.type === "success" && (
