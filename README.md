@@ -29,4 +29,4 @@ X 13. Som användare vill jag kunna öppna varukorgen genom att klicka på ett m
 
 14. Som användare vill jag kunna klicka på “Beställ” i varukorgen och få en bekräftelse på att jag gjort detta.
 
-15. Som användare vill jag få en bekräftelse i webbläsaren om kontaktar Lumia på “Kontakta oss”-sidan.
+X 15. Som användare vill jag få en bekräftelse i webbläsaren om kontaktar Lumia på “Kontakta oss”-sidan.
