@@ -1,9 +1,23 @@
-import { useState } from "react"
-import products from "../assets/products.jsx"
+import { useState, useEffect } from "react"
 
 function Home() {
+  const [products, setProducts] = useState([])
   const [searchProduct, setSearchProduct] = useState("")
   const [filteredProducts, setFilteredProducts] = useState(products)
+
+  useEffect(() => {
+    async function fetchData() {
+      try {
+        const response = await fetch("http://localhost:3000/products")
+        const result = await response.json()
+        setProducts(result)
+        setFilteredProducts(result)
+      } catch (error) {
+        console.error(error)
+      }
+    }
+    fetchData()
+  }, [])
 
   const handleInputChange = (event) => {
     const searchTerm = event.target.value.toLowerCase()
