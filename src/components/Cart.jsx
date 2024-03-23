@@ -1,16 +1,30 @@
 import { Modal, Button } from "react-bootstrap"
 import PropTypes from "prop-types"
-import { useContext } from "react"
+import { useContext, useState } from "react"
 import { CartContext } from "../context/CartContext.jsx"
 
 const Cart = ({ show, handleClose }) => {
   const { cartItems, addToCart, removeFromCart, emptyCart, getCartTotal } =
     useContext(CartContext)
 
+  const [orderPlaced, setOrderPlaced] = useState(false)
+
+  const order = () => {
+    emptyCart()
+    setOrderPlaced(true)
+  }
+
+  const handleModalClose = () => {
+    if (cartItems.length === 0) {
+      setOrderPlaced(false)
+    }
+    handleClose()
+  }
+
   return (
     <Modal
       show={show}
-      onHide={handleClose}
+      onHide={handleModalClose}
       animation={false}
       className="corners overlay modal-xl"
       id="cart"
@@ -18,10 +32,10 @@ const Cart = ({ show, handleClose }) => {
     >
       <div style={{ margin: 10 + "px" }}>
         <div id="cart-top-row">
-          <h3>Varukorg</h3>{" "}
+          <h3>Varukorg</h3>&nbsp;
           <Button
             variant="secondary"
-            onClick={handleClose}
+            onClick={handleModalClose}
             id="modal-close-button"
           >
             X
@@ -73,12 +87,18 @@ const Cart = ({ show, handleClose }) => {
             type="button"
             className="btn btn-outline-dark"
             style={{ marginTop: 10 + "px", width: 200 + "px" }}
-            onClick={emptyCart}
+            onClick={order}
             disabled={cartItems.length === 0}
           >
             Beställ
           </button>
         </div>
+        {orderPlaced && (
+          <p className="thank-you-message">
+            Tack för att du handlar hos Lumia! Vi skickar din beställning inom
+            tre arbetsdagar.
+          </p>
+        )}
       </div>
     </Modal>
   )

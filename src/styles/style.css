@@ -159,7 +159,7 @@ nav a {
   border-radius: 100%;
 }
 
-#thank-you-message {
+.thank-you-message {
   margin-top: 10px;
   font-size: 20px;
 }
