@@ -17,16 +17,16 @@ X 7. Som användare vill jag att varukorgens “total” uppdateras när jag lä
 
 X 8. Som användare vill jag kunna söka bland Lumias lampor och få träffar baserat på lampornas dolda keywords.
 
-9. Som användare vill jag att om jag lägger flera exemplar av samma lampa ska inte nya rader skapas i varukorgen, utan istället att summan och ett antal uppdateras.
+X 9. Som användare vill jag att om jag lägger flera exemplar av samma lampa ska inte nya rader skapas i varukorgen, utan istället att summan och ett antal uppdateras.
 
-10. Som användare vill jag kunna minska antalet av en lampa i varukorgen.
+X 10. Som användare vill jag kunna minska antalet av en lampa i varukorgen.
 
-11. Som användare vill jag kunna ta bort en lampa i varukorgen.
+X 11. Som användare vill jag kunna ta bort en lampa i varukorgen.
 
-12. Som användare vill jag kunna tömma varukorgen.
+X 12. Som användare vill jag kunna tömma varukorgen.
 
 X 13. Som användare vill jag kunna öppna varukorgen genom att klicka på ett menyalternativ för detta.
 
-14. Som användare vill jag kunna klicka på “Beställ” i varukorgen och få en bekräftelse på att jag gjort detta.
+X 14. Som användare vill jag kunna klicka på “Beställ” i varukorgen och få en bekräftelse på att jag gjort detta.
 
 X 15. Som användare vill jag få en bekräftelse i webbläsaren om kontaktar Lumia på “Kontakta oss”-sidan.
