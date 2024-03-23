@@ -65,6 +65,7 @@ const Cart = ({ show, handleClose }) => {
             type="button"
             className="btn btn-outline-dark"
             style={{ marginTop: 10 + "px", width: 200 + "px" }}
+            disabled={cartItems.length === 0}
           >
             Töm varukorgen
           </button>
@@ -72,6 +73,8 @@ const Cart = ({ show, handleClose }) => {
             type="button"
             className="btn btn-outline-dark"
             style={{ marginTop: 10 + "px", width: 200 + "px" }}
+            onClick={emptyCart}
+            disabled={cartItems.length === 0}
           >
             Beställ
           </button>
