@@ -50,7 +50,7 @@ function Contact() {
         ></textarea>
       </div>
       {confirmationMessage?.type === "success" && (
-        <p id="thank-you-message">
+        <p className="thank-you-message">
           Tack för ditt meddelande till oss på Lumia! Vi återkommer inom tre
           arbetsdagar.
         </p>
