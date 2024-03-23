@@ -1,9 +1,10 @@
 import { useState, useEffect } from "react"
+import ProductsList from "../components/ProductsList.jsx"
 
 function Home() {
   const [products, setProducts] = useState([])
   const [searchProduct, setSearchProduct] = useState("")
-  const [filteredProducts, setFilteredProducts] = useState(products)
+  const [filteredProducts, setFilteredProducts] = useState([])
 
   useEffect(() => {
     async function fetchData() {
@@ -50,18 +51,7 @@ function Home() {
           onChange={handleInputChange}
         ></input>
 
-        <div className="lamps">
-          {filteredProducts.map((product) => (
-            <div className="product clearfix" key={product.id}>
-              <img src={product.image} alt={product.name}></img>
-              <div className="content">
-                <h2>{product.name}</h2>
-                <p>{product.description}</p>
-                <button data-click="buy">Köp för {product.cost} kr</button>
-              </div>
-            </div>
-          ))}
-        </div>
+        <ProductsList filteredProducts={filteredProducts} />
       </div>
     </main>
   )
