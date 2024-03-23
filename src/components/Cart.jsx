@@ -24,7 +24,18 @@ const Cart = ({ show, handleClose }) => {
               <span>
                 {item.name} x {item.quantity}
               </span>
-              <span>{item.cost}</span>
+              <span>
+                {item.cost}&nbsp;
+                <button
+                  onClick={() => {
+                    addToCart(item)
+                  }}
+                >
+                  +
+                </button>
+                &nbsp;
+                <button onClick={() => removeFromCart(item)}>-</button>
+              </span>
             </li>
           ))}
         </ul>
