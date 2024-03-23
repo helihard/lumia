@@ -1,4 +1,9 @@
+import { CartContext } from "../context/CartContext.jsx"
+import { useContext, useState, useEffect } from "react"
+
 const ProductsList = ({ filteredProducts }) => {
+  const { cartItems, addToCart } = useContext(CartContext)
+
   return (
     <div className="lamps">
       {filteredProducts.map((product) => (
@@ -7,7 +12,9 @@ const ProductsList = ({ filteredProducts }) => {
           <div className="content">
             <h2>{product.name}</h2>
             <p>{product.description}</p>
-            <button data-click="buy">Köp för {product.cost} kr</button>
+            <button data-click="buy" onClick={() => addToCart(product)}>
+              Köp för {product.cost} kr
+            </button>
           </div>
         </div>
       ))}
