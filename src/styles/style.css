@@ -92,13 +92,15 @@ nav a {
 }
 
 #cart li {
+  display: flex;
+  justify-content: space-between;
   overflow: auto;
   margin-bottom: 3px;
 }
 
-#cart li > span {
+/*#cart li > span {
   float: right;
-}
+}*/
 
 #cart li.total {
   border-top: 1px dashed gray;
