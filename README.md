@@ -9,11 +9,11 @@ X 3. Som användare vill jag kunna söka bland Lumias lampor och få träffar ba
 
 X 4. Som användare vill jag kunna gå mellan “Kontakta oss” och startsidan genom att klicka i menyn, utan att webbläsaren laddar om sidan.
 
-5. Som användare vill jag kunna lägga till lampor i varukorgen på det sätt som visas i skissvideon.
+X 5. Som användare vill jag kunna lägga till lampor i varukorgen på det sätt som visas i skissvideon.
 
 X 6. Som användare vill jag kunna stänga varukorgen genom att klicka utanför den.
 
-7. Som användare vill jag att varukorgens “total” uppdateras när jag lägger nya lampor i varukorgen.
+X 7. Som användare vill jag att varukorgens “total” uppdateras när jag lägger nya lampor i varukorgen.
 
 X 8. Som användare vill jag kunna söka bland Lumias lampor och få träffar baserat på lampornas dolda keywords.
 
