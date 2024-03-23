@@ -17,7 +17,16 @@ const Cart = ({ show, handleClose }) => {
       style={{ opacity: 0.7 }}
     >
       <div style={{ margin: 10 + "px" }}>
-        <h3>Varukorg</h3>
+        <div id="cart-top-row">
+          <h3>Varukorg</h3>{" "}
+          <Button
+            variant="secondary"
+            onClick={handleClose}
+            id="modal-close-button"
+          >
+            X
+          </Button>
+        </div>
         <ul>
           {cartItems.map((item) => (
             <li key={item.id}>
@@ -50,10 +59,24 @@ const Cart = ({ show, handleClose }) => {
             </li>
           )}
         </ul>
+        <div id="cart-buttons-div">
+          <button
+            onClick={emptyCart}
+            type="button"
+            className="btn btn-outline-dark"
+            style={{ marginTop: 10 + "px", width: 200 + "px" }}
+          >
+            Töm varukorgen
+          </button>
+          <button
+            type="button"
+            className="btn btn-outline-dark"
+            style={{ marginTop: 10 + "px", width: 200 + "px" }}
+          >
+            Beställ
+          </button>
+        </div>
       </div>
-      <Button variant="secondary" onClick={handleClose} id="modal-close-button">
-        X
-      </Button>
     </Modal>
   )
 }

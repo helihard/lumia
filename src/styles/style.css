@@ -85,6 +85,22 @@ nav a {
   width: 75vw;
 }
 
+#cart-top-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+#cart-buttons-div {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+#cart-buttons-div button:last-of-type {
+  background-color: rgb(255, 162, 0, 1);
+}
+
 #cart ul {
   list-style: none;
   padding: 0;
@@ -134,7 +150,13 @@ nav a {
 
 #modal-close-button {
   max-width: min-content;
-  margin: 0 10px 10px auto;
+  position: relative;
+  top: -25px;
+  left: 25px;
+  background-color: rgb(255, 162, 0);
+  color: black;
+  border: none;
+  border-radius: 100%;
 }
 
 #thank-you-message {
