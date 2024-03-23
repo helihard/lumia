@@ -1,12 +1,13 @@
 import { useState, useEffect } from "react"
 import ProductsList from "../components/ProductsList.jsx"
+import products from "../assets/products.jsx"
 
 function Home() {
-  const [products, setProducts] = useState([])
+  //const [products, setProducts] = useState(products)
   const [searchProduct, setSearchProduct] = useState("")
-  const [filteredProducts, setFilteredProducts] = useState([])
+  const [filteredProducts, setFilteredProducts] = useState(products)
 
-  useEffect(() => {
+  /* useEffect(() => {
     async function fetchData() {
       try {
         const response = await fetch("http://localhost:3000/products")
@@ -18,7 +19,7 @@ function Home() {
       }
     }
     fetchData()
-  }, [])
+  }, [])*/
 
   const handleInputChange = (event) => {
     const searchTerm = event.target.value.toLowerCase()
