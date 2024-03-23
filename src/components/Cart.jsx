@@ -21,7 +21,9 @@ const Cart = ({ show, handleClose }) => {
         <ul>
           {cartItems.map((item) => (
             <li key={item.id}>
-              <span>{item.name}</span>
+              <span>
+                {item.name} x {item.quantity}
+              </span>
               <span>{item.cost}</span>
             </li>
           ))}
