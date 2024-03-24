@@ -16,6 +16,8 @@ Uppgiften skulle egentligen utföras i grupper om två studerande, men eftersom 
 
 Jag har inte lagt mycket tid på att anpassa Bootstrap-stylingen och några delar följer inte helt videodemon: bakgrunden resizar abrupt under routing i vissa browserstorlekar och varukorgsmodalen följer inte heller helt med vid resizing av browsern. Eftersom jag inte tror att jag kommer att använda Bootstrap i större utsträckning utanför utbildningen har jag valt att bortse från dessa styling-skavanker och fokusera på att lära mig React, och anse user story 2 som uppfylld "good enough".
 
+Jag har också testat att använda JSON för fake API i denna uppgift (koden för detta ligger kvar utkommenterad), men i slutänden valde jag att helt enkelt importera produktdata synkront – mängden produktdata var i detta fall mycket begränsad.
+
 De viktigaste källor jag använt för uppgiften finns i sources.md.
 
 ----- User Stories -----
