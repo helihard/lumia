@@ -1,9 +1,30 @@
-User Stories
+**"Lumia" workshop**
+
+En övningsuppgift från kursen Producera och leverera mjukvara (fjärde kursen på YH-utbildning Fullstackutvecklare inriktning JavaScript, Teknikhögskolan, start HT23).
+
+Syftet med uppgiften var att lära sig React, som vi börjat arbeta med i denna kurs, och i någon mån att bekanta sig med Bootstrap inför senare uppgifter. Uppgiften var avsedd för just övning och skulle inte lämnas in eller ligga till grund för betyg.
+
+Vi fick en starter med material att utgå från:
+
+- HTML-filer (index.html och contact.html)
+- JSON-data (produktdata)
+- stylesheets (custom och Bootstrap)
+
+Till stöd hade vi User Stories (se nedan) och en video som visar hur (delar av) den färdiga produkten ska se ut och fungera, https://drive.google.com/file/d/1UycGO6R10bH8d1_SunoU-mtM6DxXntCv/view
+
+Uppgiften skulle egentligen utföras i grupper om två studerande, men eftersom jag var sjuk när övriga klassen arbetade med uppgiften har jag utfört den på egen hand över lite längre tid. Det har gjort att jag gått miste om tillfällen till gemensam informationssökning (kunskapsutjämning),problemlösning och parkodning, men det har å andra sidan varit en boost att märka att jag självständigt kan bygga en visuellt något mer avancerad app med ett för mig nytt verktyg (React).
+
+Jag har inte lagt mycket tid på att anpassa Bootstrap-stylingen och några delar följer inte helt videodemon: bakgrunden resizar abrupt under routing i vissa browserstorlekar och varukorgsmodalen följer inte heller helt med vid resizing av browsern. Eftersom jag inte tror att jag kommer att använda Bootstrap i större utsträckning utanför utbildningen har jag valt att bortse från dessa styling-skavanker och fokusera på att lära mig React, och anse user story 2 som uppfylld "good enough".
+
+De viktigaste källor jag använt för uppgiften finns i sources.md.
+
+----- User Stories -----
+
 Använd dessa User Stories som stöd:
 
 X 1. Som användare vill jag kunna se Lumias lampor.
 
-X 2. Som användare vill jag att utseendet på webbsidans olika delar stämmer överens med videon (https://drive.google.com/file/d/1UycGO6R10bH8d1_SunoU-mtM6DxXntCv/view).
+X 2. Som användare vill jag att utseendet på webbsidans olika delar stämmer överens med videon.
 
 X 3. Som användare vill jag kunna söka bland Lumias lampor och få träffar baserat på lampornas namn.
 
