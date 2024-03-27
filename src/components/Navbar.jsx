@@ -31,7 +31,10 @@ function Navbar() {
             Varukorg
           </a>
           &nbsp;
-          <Link to={"/contact"} className="text-sm-right nav-link contact-us">
+          <Link
+            to={"/lumia/contact"}
+            className="text-sm-right nav-link contact-us"
+          >
             Kontakta oss
           </Link>
         </nav>

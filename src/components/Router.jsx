@@ -10,7 +10,7 @@ function Router() {
         <Navbar />
         <Routes>
           <Route path="/lumia" element={<Home />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/lumia/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
     </>
