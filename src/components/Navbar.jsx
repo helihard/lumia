@@ -1,24 +1,24 @@
-import { Link } from "react-router-dom"
-import Cart from "./Cart"
-import { useState } from "react"
+import { Link } from "react-router-dom";
+import Cart from "./Cart";
+import { useState } from "react";
 
 function Navbar() {
-  const [showModal, setShowModal] = useState(false)
+  const [showModal, setShowModal] = useState(false);
 
   const handleModalClose = () => {
-    setShowModal(false)
-  }
+    setShowModal(false);
+  };
 
   const handleModalShow = () => {
-    setShowModal(true)
-  }
+    setShowModal(true);
+  };
 
   return (
     <>
       <header>
         <nav className="nav flex-column flex-sm-row">
           <Link
-            to={"/"}
+            to={"/lumia"}
             className="flex-sm-fill flex-grow-1 text-sm-left nav-link"
           >
             <h1>LUMIA</h1>
@@ -38,7 +38,7 @@ function Navbar() {
       </header>
       <Cart show={showModal} handleClose={handleModalClose} />
     </>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;
